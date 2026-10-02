@@ -1,0 +1,4 @@
+interface:
+  display_name: "出题难度与轮次提升"
+  short_description: "改进提示词与原始附件，增加真实判断难度和必要工作，减少无效堆量"
+  default_prompt: "使用 $task-difficulty-design 改进当前题目的 prompt 和输入附件，针对难度与有效轮次不足给出并落实可解的改造。"
