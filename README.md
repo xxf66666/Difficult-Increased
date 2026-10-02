@@ -20,6 +20,8 @@
 
 每种方法说明适用迹象、具体操作、对难度和轮次的作用，以及怎样检查仍然可解。范围限定为 **prompt、输入附件、判断难度、必要执行与效果验证**，不扩展成项目管理工具。
 
+可以有意设计信息分布、规则交叠和前后依赖。关键是让新增关系影响实际结果：跨文件得到的事实改变对象状态，状态改变适用规则，规则改变方案，验证结果再决定是否需要修正。这样，判断难点发生在必须完成的工作里。
+
 ## 安装
 
 需要 Python 3.9+。在终端执行：
@@ -55,10 +57,15 @@ Claude Code：
 
 - [核心改造方法](skills/task-difficulty-design/references/transformation-playbook.md)：4 类 prompt 改造、8 类附件改造，以及把判断难点接到必要工作的方法。
 - [难度机制](skills/task-difficulty-design/references/difficulty-mechanisms.md)：证据效力、瓶颈、规则组合、局部不可行、口径和跨阶段一致性。
+- [跨文件证据专项](skills/task-difficulty-design/references/cross-file-evidence.md)：7 种方法，含实体拆并、双时间、证据依赖、跨载体约束、调节关系与覆盖边界。
+- [跨规则组合专项](skills/task-difficulty-design/references/rule-composition.md)：8 种方法，含部分覆盖、状态触发、非交换顺序、共享资源、精度边界、全局可行与最小修复。
+- [难度与执行联动](skills/task-difficulty-design/references/coupled-execution.md)：8 种方法，将竞争解释、判别取证、反例修复、变更传播、不确定性与核验接成必要工作。
 - [提示词与附件](skills/task-difficulty-design/references/prompt-and-attachments.md)、[PDF 制作](skills/task-difficulty-design/references/pdf-authoring.md)。
 - [轮次与验证](skills/task-difficulty-design/references/rounds-and-validation.md)：必要工作设计、计数、评分与失败后修复。
 - [作者改造记录模板](skills/task-difficulty-design/assets/design-record.md)：把具体改动、判断难点、必要工作和验证证据对应起来。
 - [来源与取舍](skills/task-difficulty-design/references/source-notes.md)：三份指定材料、会议纪要和用户口述的抽象过程。
+
+具体使用示例：[供应商交付安排](docs/examples/supplier-delivery-redesign.md) · [返修承诺的三套改造组合](docs/examples/repair-commitment-redesign.md)。示例展示怎样把方法用于题面和附件组织，不是已通过难度跑测的提交题目。
 
 技能不预设所有项目的分数线，也不保证使用后一定达到某个轮次。它提供可执行的改题方法；效果仍需从实际题目、模型产物和原始执行记录验证。
 
