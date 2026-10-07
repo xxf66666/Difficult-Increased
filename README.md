@@ -18,6 +18,8 @@
 | 工作不少，但都是独立的小活 | 让证据判断改变后续计算、方案、执行与交付 |
 | 增加文件、页数仍然没有作用 | 使用有不同业务用途的产物、全量对象处理、实质情景重算和必要验证 |
 | PDF 过度统一，像作者精修过的报告 | 用 TeX 保证可读，保留来源间版式差异与可恢复的内容错误；无需统一精整 |
+| 同一行业的多道题只有标题、数字或输出格式不同 | 从五种方向拆分，按核心决定、证据、约束与交付结果去重，逐题落实难度 |
+| 题目有专业难点，考点却只查格式、关键词和“分析合理” | 八项考点写法，明确结果、依据、单位、容差及替代解，检查专业判断是否实际被测到 |
 
 每种方法说明适用迹象、具体操作、对难度和轮次的作用，以及怎样检查仍然可解。范围限定为 **prompt、输入附件、判断难度、必要执行与效果验证**，不扩展成项目管理工具。
 
@@ -70,8 +72,10 @@ Claude Code：
 - [提示词与附件](skills/task-difficulty-design/references/prompt-and-attachments.md)、[PDF 制作](skills/task-difficulty-design/references/pdf-authoring.md)。
 - [原生错误与可恢复噪声](skills/task-difficulty-design/references/recoverable-noise.md)：错字、错值、错单位、错汇总、CSV/表格扩充与不统一版式，把纠错接入后续重算。
 - [轮次与验证](skills/task-difficulty-design/references/rounds-and-validation.md)：必要工作设计、计数、评分与失败后修复。
+- [同领域多题设计](skills/task-difficulty-design/references/task-portfolio.md)：五种方向拆分、实质去重、H1–H6 能力层次和逐题验证。
+- [考点写法与区分度](skills/task-difficulty-design/references/rubric-writing.md)：八项写法、数值容差、开放方案、隐性专业判断与反向检查。
 - [作者改造记录模板](skills/task-difficulty-design/assets/design-record.md)：把具体改动、判断难点、必要工作和验证证据对应起来。
-- [来源与取舍](skills/task-difficulty-design/references/source-notes.md)：三份指定材料、会议纪要和用户口述的抽象过程。
+- [来源与取舍](skills/task-difficulty-design/references/source-notes.md)：指定材料、会议纪要、用户口述与后续两份出题/考点材料的抽象过程。
 
 具体使用示例：[供应商交付安排](docs/examples/supplier-delivery-redesign.md) · [返修承诺的三套改造组合](docs/examples/repair-commitment-redesign.md)。示例展示怎样把方法用于题面和附件组织，不是已通过难度跑测的提交题目。
 
