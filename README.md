@@ -15,6 +15,7 @@
 | 几行文字或数据就单独做成一份附件，一看就在给某个考点递线索 | 作为必须返工的问题处理；恢复完整相关资料和充分自然噪声，再做跨源判断设计 |
 | 每份附件刚好对应一个答案 | 保留自然的跨源信息分布，让关键事实需要关联恢复 |
 | “最新版本”“综合榜单”直接决定答案 | 让判断回到权限、生效状态、适用对象与当前业务瓶颈 |
+| 每份文件各挑最新版，就能拼出结果 | 恢复分支与累积修订，检查配套兼容、实际执行及回滚边界，再同步受影响结果 |
 | 工作不少，但都是独立的小活 | 让证据判断改变后续计算、方案、执行与交付 |
 | 错误只有一处，后面照算就结束 | 成对设计可信误判、正向后果、独立反证、逆向定位与修复闭合，允许直接避坑 |
 | 增加文件、页数仍然没有作用 | 使用有不同业务用途的产物、全量对象处理、实质情景重算和必要验证 |
@@ -71,6 +72,7 @@ Claude Code：
 - [跨规则组合专项](skills/task-difficulty-design/references/rule-composition.md)：8 种方法，含部分覆盖、状态触发、非交换顺序、共享资源、精度边界、全局可行与最小修复。
 - [难度与执行联动](skills/task-difficulty-design/references/coupled-execution.md)：8 种方法，将竞争解释、判别取证、反例修复、变更传播、不确定性与核验接成必要工作。
 - [业务逻辑与可恢复陷阱](skills/task-difficulty-design/references/business-logic-and-recovery.md)：6 种机制，将多角色交接、多参数求解、正反向传导与纠偏成对设计。
+- [版本冲突与一致组合](skills/task-difficulty-design/references/version-conflicts.md)：5 种方法，处理分支谱系、累积修订、配套兼容、落地偏离与回滚边界。
 - [提示词与附件](skills/task-difficulty-design/references/prompt-and-attachments.md)、[PDF 制作](skills/task-difficulty-design/references/pdf-authoring.md)。
 - [原生错误与可恢复噪声](skills/task-difficulty-design/references/recoverable-noise.md)：错字、错值、错单位、错汇总、CSV/表格扩充与不统一版式，把纠错接入后续重算。
 - [轮次与验证](skills/task-difficulty-design/references/rounds-and-validation.md)：必要工作设计、计数、评分与失败后修复。
