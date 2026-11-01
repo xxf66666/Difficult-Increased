@@ -79,7 +79,7 @@ Claude Code：
 - [原生错误与可恢复噪声](skills/task-difficulty-design/references/recoverable-noise.md)：错字、错值、错单位、错汇总、CSV/表格扩充与不统一版式，把纠错接入后续重算。
 - [轮次与验证](skills/task-difficulty-design/references/rounds-and-validation.md)：必要工作设计、计数、评分与失败后修复。
 - [同领域多题设计](skills/task-difficulty-design/references/task-portfolio.md)：五种方向拆分、实质去重、H1–H6 能力层次和逐题验证。
-- [考点写法与区分度](skills/task-difficulty-design/references/rubric-writing.md)：八项写法、数值容差、开放方案、隐性专业判断与反向检查。
+- [考点写法与区分度](skills/task-difficulty-design/references/rubric-writing.md)：短正文写实际结果与具体条件，依据、思路、常见错误留作者侧；含数值容差、开放方案与判分校准。
 - [作者改造记录模板](skills/task-difficulty-design/assets/design-record.md)：把具体改动、判断难点、必要工作和验证证据对应起来。
 - [来源与取舍](skills/task-difficulty-design/references/source-notes.md)：指定材料、会议纪要、用户口述与后续两份出题/考点材料的抽象过程。
 
