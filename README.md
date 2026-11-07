@@ -14,6 +14,7 @@
 | 附件太干净，模型直接读总表就完成 | 恢复未经整理的工作面；可主动增加错字、错值、错单位、重复与旧汇总，并用跨源证据支持纠错 |
 | 几行文字或数据就单独做成一份附件，一看就在给某个考点递线索 | 作为必须返工的问题处理；恢复完整相关资料和充分自然噪声，再做跨源判断设计 |
 | 每份附件刚好对应一个答案 | 保留自然的跨源信息分布，让关键事实需要关联恢复 |
+| 已找到所有关键词，却把不同对象或时期串成一条链 | 让未知中间对象逐层产生，辨别真实事实的错误关联，核验整链并把结果接到数量与交付 |
 | “最新版本”“综合榜单”直接决定答案 | 让判断回到权限、生效状态、适用对象与当前业务瓶颈 |
 | 每份文件各挑最新版，就能拼出结果 | 恢复分支与累积修订，检查配套兼容、实际执行及回滚边界，再同步受影响结果 |
 | 工作不少，但都是独立的小活 | 让证据判断改变后续计算、方案、执行与交付 |
@@ -70,14 +71,14 @@ Claude Code：
 
 - [核心改造方法](skills/task-difficulty-design/references/transformation-playbook.md)：4 类 prompt 改造、8 类附件改造，以及把判断难点接到必要工作的方法。
 - [难度机制](skills/task-difficulty-design/references/difficulty-mechanisms.md)：证据效力、瓶颈、规则组合、局部不可行、口径和跨阶段一致性。
-- [跨文件证据专项](skills/task-difficulty-design/references/cross-file-evidence.md)：7 种方法，含实体拆并、双时间、证据依赖、跨载体约束、调节关系与覆盖边界。
+- [跨文件证据专项](skills/task-difficulty-design/references/cross-file-evidence.md)：7 种基础方法与多跳组合，覆盖未知中间对象、真实事实误接、分支汇合和整条关系核验。
 - [跨规则组合专项](skills/task-difficulty-design/references/rule-composition.md)：8 种方法，含部分覆盖、状态触发、非交换顺序、共享资源、精度边界、全局可行与最小修复。
 - [难度与执行联动](skills/task-difficulty-design/references/coupled-execution.md)：8 种方法，将竞争解释、判别取证、反例修复、变更传播、不确定性与核验接成必要工作。
 - [业务逻辑与可恢复陷阱](skills/task-difficulty-design/references/business-logic-and-recovery.md)：6 种机制，将多角色交接、多参数求解、正反向传导与纠偏成对设计。
 - [版本冲突与一致组合](skills/task-difficulty-design/references/version-conflicts.md)：5 种方法，处理分支谱系、累积修订、配套兼容、落地偏离与回滚边界。
 - [提示词与附件](skills/task-difficulty-design/references/prompt-and-attachments.md)、[PDF 制作](skills/task-difficulty-design/references/pdf-authoring.md)。
 - [原生错误与可恢复噪声](skills/task-difficulty-design/references/recoverable-noise.md)：错字、错值、错单位、错汇总、CSV/表格扩充与不统一版式，把纠错接入后续重算。
-- [轮次与验证](skills/task-difficulty-design/references/rounds-and-validation.md)：必要工作设计、计数、评分与失败后修复。
+- [轮次与验证](skills/task-difficulty-design/references/rounds-and-validation.md)：多跳结构与实际轮次分别计量；落实“20轮内偏简单”的强度复核、必要工作设计与试测修复。
 - [完整可行路线与便捷解挑战](skills/task-difficulty-design/references/feasibility-and-shortcuts.md)：扩包前核验组合可行性、独立复算与便捷策略的反证范围；多轮状态和同根评分各有具体处理方法。
 - [同领域多题设计](skills/task-difficulty-design/references/task-portfolio.md)：五种方向拆分、实质去重、H1–H6 能力层次和逐题验证。
 - [考点写法与区分度](skills/task-difficulty-design/references/rubric-writing.md)：短正文写实际结果与具体条件，依据、思路、常见错误留作者侧；含数值容差、开放方案与判分校准。
